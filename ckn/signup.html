@@ -11,7 +11,6 @@
     <h1>STUDENT PORTAL</h1>
     <input type="checkbox" id="show">
     <label for="show" class="show-btn">View Form</label>
-
     <div class="container">
         <div id="content_container">
             <div id="form_container">
@@ -21,17 +20,19 @@
 
                 <div id="form_content_container">
                     <div id="form_content_inner_container">
-                        <h1>Welcome</h1>
-                      
+                                            
+                        <label>username</label>
+                        <input type="text" id="username" placeholder="name"><br>
                         <label>Email</label>
                         <input type="email" id="email" placeholder="Email"><br>
                         <label>password</label>
                         <input type="password" id="password" placeholder=" Password"><br>
 
                         <div id="button_container">
-                            <button onclick="login()">login</button>
+                            <button onclick="register()">signup</button>
                         </div>
-       
+
+                        <p>already have an account<a href="login.html">"login"</a></p>
     </div>
      <!-- The core Firebase JS SDK is always required and must be listed first -->
      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
@@ -42,6 +43,7 @@
      <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
  
      <!-- Our script must be loaded after firebase references -->
-     <script src="login1.js"></script>
+     <script src="login.js"></script>
+
 </body>
 </html>

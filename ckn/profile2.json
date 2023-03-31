@@ -1,0 +1,17 @@
+{
+	"basics": {
+		"name": "CHANDAN",
+		"label": "Architect",
+		"picture": "chandu.jpeg",
+		
+		"website": "https://reactdude.com/",
+		"twitter": "https://twitter.com/prakis",
+		"facebook": "https://www.facebook.com/Stringify.me",
+		"github": "http://github.com/prakis",
+		"summary": " ."
+	},
+	"theme": {
+		"url": "https://github.com/prakis/stringify.me-theme",
+		"background" :"#f98008"
+	}
+}

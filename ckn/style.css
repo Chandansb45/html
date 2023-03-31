@@ -3,7 +3,7 @@
 body{
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(to right, #20002c,
- #cbb4d4);
+ #2f2d30);
 }
 .show-btn{
     padding: 10px 20px;
@@ -57,8 +57,8 @@ input[type="checkbox"]{
 }
 
 h1{
-    text-align: center;
-    color: white;
+    text-align: left;
+    color: rgb(64, 160, 27);
     text-transform: uppercase;
 }
 
